@@ -1,0 +1,85 @@
+{
+  "title" : "Geospatial Commission partner catalogue",
+  "fields": [
+    {
+      "name": "Organisation",
+      "title": "Organisation",
+	  "description": "Short form of Organisation name or Organisation acronym",
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    },
+        {
+      "name": "Dataset_Title",
+      "title": "Dataset_Title",
+	  "description": "Publishing Organisation’s official title for the dataset",
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    },
+        {
+      "name": "Abstract",
+      "title": "Abstract",
+	  "description": "Publishing Organisation’s description of the dataset",
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    },
+        {
+      "name": "INSPIRE_Theme",
+      "title": "INSPIRE_Theme",
+	  "description": "Semi-colon separated list of Inspire Theme(s) best describing the dataset. See http://inspire.ec.europa.eu/theme",
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    },
+        {
+      "name": "Inspire_Theme_Feature_Type",
+      "title": "Inspire_Theme_Feature_Type",
+	  "description": "Semi-colon separated list of the Inspire Feature Type(s) best describing the dataset. http://inspire.ec.europa.eu/featureconcept",
+      "constraints": {
+        "required": false,
+        "type": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    },
+        {
+      "name": "Geocom_Theme",
+      "title": "Geocom_Theme",
+	  "description": "A combined set of keyword values that draw on different vocabularies at a detailed level where an Inspire definition is not applicable.",
+      "constraints": {
+        "required": false,
+        "type": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    },
+        {
+      "name": "Constraints",
+      "title": "Constraints",
+	  "description": "This field outlines any licencing constraints e.g. if dataset is published as part of a product",
+      "constraints": {
+        "required": false,
+        "type": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    },
+        {
+      "name": "Metadata_published_on_dguk",
+      "title": "Metadata_published_on_dguk",
+	  "description": "A metadata record for this dataset exists on DGUK",
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#string", "pattern": "^(Published|Unpublished)$"
+      }
+    },
+        {
+      "name": "Data_published",
+      "title": "Data_published",
+	  "description": "A free text field to capture where the data is published. This could be a list of products (with a semi-colon) separator where there are multiples Or Where possible a URL to the data will be provided",
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    }]
+}
