@@ -38,8 +38,8 @@
       }
     },
         {
-      "name": "INSPIRE_Theme_Feature_Type",
-      "title": "INSPIRE_Theme_Feature_Type",
+      "name": "INSPIRE_Feature_Type",
+      "title": "INSPIRE_Feature_Type",
 	  "description": "Semi-colon separated list of the INSPIRE Feature Type(s) best describing the dataset. http://inspire.ec.europa.eu/featureconcept",
       "constraints": {
         "required": false,
