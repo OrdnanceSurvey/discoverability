@@ -70,7 +70,7 @@
 	  "description": "A metadata record for this dataset exists on DGUK",
       "constraints": {
         "required": true,
-        "type": "http://www.w3.org/2001/XMLSchema#string", "pattern": "^(Published|Unpublished)$"
+        "type": "http://www.w3.org/2001/XMLSchema#string"
       }
     },
         {
