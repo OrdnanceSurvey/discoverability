@@ -47,9 +47,9 @@
       }
     },
         {
-      "name": "GC_Theme",
-      "title": "GC_Theme",
-	  "description": "Semi-colon separated list of keyword values drawn from other vocabularies, INSPIRE definition is not applicable.",
+      "name": "Geospatial_Commission_Theme",
+      "title": "GGeospatial_Commission_Theme",
+	  "description": "Semi-colon separated list of keyword values drawn from other vocabularies, where no INSPIRE definition is applicable.",
       "constraints": {
         "required": false,
         "type": "http://www.w3.org/2001/XMLSchema#string"
