@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="https://raw.githubusercontent.com/OrdnanceSurvey/discoverability/master/GEMINIviewingstylesheet.xsl" type="text/xsl"?> 
+<?xml-stylesheet href="GEMINIviewingstylesheet.xsl" type="text/xsl"?> 
 <gmd:MD_Metadata xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xsi:schemaLocation="http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd">
     <gmd:fileIdentifier>
         <gco:CharacterString>49ab56d6-51b7-4500-8107-6cb17327256f</gco:CharacterString>
