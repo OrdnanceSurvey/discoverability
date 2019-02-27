@@ -7,6 +7,5 @@ Note: following the Brownfield Site Register pattern, the CSV schema uses the de
 
 Turns out this is due to CSVLint predating W3C even starting their work. Apparently, CSVLint does support the CSV on the Web schema files, but I'm told the error reporting isn't as clear as when using their 'native' schema files.
 
-To do in JSON file:
-- change GC_Theme column name to Geospatial_Commission_Theme
-- 
+## GEMINI stylesheet
+Looks like the GitHub security settings prevent the 'raw view' loading the stylesheet (a 'remote resource')
