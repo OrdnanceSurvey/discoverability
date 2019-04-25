@@ -49,7 +49,7 @@
         {
       "name": "Geospatial_Commission_Theme",
       "title": "GGeospatial_Commission_Theme",
-	  "description": "Semi-colon separated list of keyword values drawn from other vocabularies, where no INSPIRE definition is applicable.",
+	  "description": "Semi-colon separated list of keyword values drawn from other vocabularies, e.g. GEMET or industry terms in common usage, where no INSPIRE definition is applicable.",
       "constraints": {
         "required": false,
         "type": "http://www.w3.org/2001/XMLSchema#string"
@@ -58,7 +58,7 @@
         {
       "name": "Constraints",
       "title": "Constraints",
-	  "description": "This field outlines any licencing constraints e.g. if dataset is published as part of a product",
+	  "description": "This field outlines any licencing constraints (where known) e.g. if dataset is published as part of a product",
       "constraints": {
         "required": false,
         "type": "http://www.w3.org/2001/XMLSchema#string"
@@ -70,16 +70,26 @@
 	  "description": "A metadata record for this dataset exists on DGUK",
       "constraints": {
         "required": true,
-        "type": "http://www.w3.org/2001/XMLSchema#string"
+        "pattern": "(Published|Unpublished)"
       }
     },
         {
       "name": "Data_published",
       "title": "Data_published",
-	  "description": "A free text field to capture where the data is published. This could be a list of products, with a semi-colon separator where there are multiples. Or Where possible a URL to the data will be provided",
+	  "description": "This data is published though this may be as part of a product, and/or under licence.",
+      "constraints": {
+        "required": true,
+        "pattern": "(Published|Unpublished)"
+      }
+    },
+        {
+      "name": "Where_To_Find_More_Information",
+      "title": "Data_published",
+	  "description": "URLs and direct links to datasets or products.",
       "constraints": {
         "required": true,
         "type": "http://www.w3.org/2001/XMLSchema#string"
       }
-    }]
+    }
+  ]
 }
