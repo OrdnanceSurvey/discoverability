@@ -47,8 +47,8 @@
       }
     },
         {
-      "name": "Geospatial_Commission_Theme",
-      "title": "GGeospatial_Commission_Theme",
+      "name": "Other_Related_Themes",
+      "title": "Other_Related_Themes",
 	  "description": "Semi-colon separated list of keyword values drawn from other vocabularies, e.g. GEMET or industry terms in common usage, where no INSPIRE definition is applicable.",
       "constraints": {
         "required": false,
