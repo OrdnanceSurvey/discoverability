@@ -78,8 +78,7 @@
       "title": "Data_published",
 	"description": "Indicates whether data is publicly available under licence* or statute as part of a product or service. *Non-OGL (Open Government License) terms may apply.",
       "constraints": {
-        "required": true,
-        "pattern": "(Published|Unpublished)"
+        "required": true
       }
     },
         {
